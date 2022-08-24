@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import FooterMenu from './Components/FooterMenu/FooterMenu'
+import "../src/index.css";
 
-function App() {
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+
+// pages 
+
+
+import NewStart from './Components/AllDockPages/NewStart';
+import Finder from './Components/AllDockPages/Finder';
+import AppStore from './Components/AllDockPages/AppStore';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NewStart />} />
+          <Route path="finder" element={<Finder />} />
+          <Route path="appstore" element={<AppStore />} />
+        </Routes>
+      </BrowserRouter>
+
+     
+
+
+    </>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,14 @@
+.header_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(248, 241, 255, 0.445);
+    backdrop-filter: blur(20px);
+    padding: 2px 1rem;
+}
+
+

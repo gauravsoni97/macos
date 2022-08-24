@@ -1,0 +1,28 @@
+.applelogoparent{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.Header_left_menu .left_header_menulist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1.5rem;
+}
+.Header_left_menu .left_header_menulist .menuitem{
+    margin-right: .3rem;
+    border-radius: .2rem;
+    font-size: .82rem;
+    padding:0.1rem .5rem;
+    cursor: pointer;
+}
+.Header_left_menu .left_header_menulist .menuitem:hover{
+    background-color: rgba(243, 237, 246, 0.393);
+}
+
+.applelogo{
+    width: .82rem;
+    height: 100%;
+}

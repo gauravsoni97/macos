@@ -1,0 +1,29 @@
+.header_right_menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+.header_right_menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 .5rem;
+}
+
+
+.header_right_menu_item-text {
+    margin-left: .5rem;
+    border-radius: .2rem;
+    font-size: .82rem;
+font-weight: 500;
+
+}
+
+.header_right_itemimg {
+    width: 1rem;
+    cursor: pointer;
+}
