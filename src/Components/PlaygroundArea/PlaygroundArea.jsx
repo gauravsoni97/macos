@@ -1,4 +1,5 @@
 import React from 'react'
+import PopoverBox from '../Popover/PopoverBox'
 import "./PlaygroundArea.css"
 
 
@@ -25,7 +26,12 @@ const PlaygroundArea = () => {
 
 
   return (
-    <div className='PlaygroundArea'>PlaygroundArea</div>
+    <div className='PlaygroundArea'>PlaygroundArea
+    
+
+    {/* <PopoverBox/> */}
+    
+    </div>
   )
 }
 

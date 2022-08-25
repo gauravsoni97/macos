@@ -11,9 +11,8 @@
 
 
 
-
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important; 
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -29,4 +28,14 @@ li {
 
 a {
     text-decoration: none;
+}
+
+
+.d_flex{
+    display: flex;
+    align-items: center;
+}
+
+.space_between{
+    justify-content: space-between;
 }

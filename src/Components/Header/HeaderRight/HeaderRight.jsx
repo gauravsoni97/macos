@@ -1,10 +1,11 @@
 import React from 'react'
 import "./HeaderRight.css"
+import Battery from './MenuItemsHeaderRight/Battery'
+import DateandTime from './MenuItemsHeaderRight/DateandTime'
+import DoubleToggle from './MenuItemsHeaderRight/DoubleToggle'
+import SearchTab from './MenuItemsHeaderRight/SearchTab'
+import Wifi from './MenuItemsHeaderRight/Wifi'
 
-import battery from "../../../Imgs/HeaderRight/battery.png"
-import wifi from "../../../Imgs/HeaderRight/wifi.png"
-import search from "../../../Imgs/HeaderRight/search.png"
-import togglebtn from "../../../Imgs/HeaderRight/toggleswitch.png"
 
 
 
@@ -13,12 +14,24 @@ const HeaderRight = () => {
   return (
     <div className='header_right' >
       <ul className='header_right_menu'>
-        <li className='header_right_menu_item' ><img className='header_right_itemimg' style={{width:"1.3rem"}}   src={battery} alt="" /></li>
-        <li className='header_right_menu_item' ><img className='header_right_itemimg'  src={wifi} alt="" /></li>
-        <li className='header_right_menu_item' ><img className='header_right_itemimg'  src={search} alt="" /></li>
-        <li className='header_right_menu_item' ><img className='header_right_itemimg' style={{width:".9rem"}}  src={togglebtn} alt="" /></li>
-        <li className=' header_right_menu_item-text'>{new Date().toLocaleDateString('en-us', { weekday: "short", day: "numeric", month: "short" })}</li>
-        <li className=' header_right_menu_item-text'>  {new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</li>
+        {/* ------------------------------------  battery - Header right  */}
+        <Battery />
+
+        {/* ------------------------------------  Wifi - Header right  */}
+        <Wifi />
+
+        {/* ------------------------------------  Search - Header right  */}
+
+        <SearchTab />
+        {/* ------------------------------------  Double Toggle - Header right  */}
+
+        <DoubleToggle />
+
+
+
+        {/* ------------------------------------  Date & Time  - Header right  */}
+        <DateandTime />
+
       </ul>
 
     </div>

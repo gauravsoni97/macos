@@ -16,6 +16,8 @@ import NewStart from './Components/AllDockPages/NewStart';
 import Finder from './Components/AllDockPages/Finder';
 import AppStore from './Components/AllDockPages/AppStore';
 
+
+
 const App = () => {
   return (
     <>

@@ -1,0 +1,90 @@
+.popoverbox {
+    background-color: rgba(29, 29, 29, 0.519);
+    color: white;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.303);
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 0;
+    margin-top: .3rem;
+}
+
+
+.popovermenu .popover_items {
+    font-size: .8rem;
+    padding: .3rem 0;
+    border-bottom: .5px solid rgba(88, 88, 88, 0.775);
+}
+
+.popovermenu .popover_items:nth-last-child(1) {
+    border-bottom: 0;
+
+}
+
+.Header_Left_popover_items {
+    font-size: .8rem;
+    padding: .2rem;
+    cursor: default;
+}
+
+.custom_hr {
+    border-top: .1px solid rgba(161, 161, 161, 0.68);
+    margin: .3rem 0;
+}
+
+
+.main_text_popover {
+    font-weight: 600;
+}
+
+.sec_text_popover {
+    font-weight: 400;
+    font-size: .7rem;
+    color: rgb(194, 194, 194);
+}
+
+
+/* left side header  ------------   */
+
+
+
+.bright_text_popover {
+    font-weight: 400;
+    font-size: .8rem;
+    padding: 0 .2rem;
+}
+
+.bright_text_popover_Item:hover {
+    background-color: #0565E1;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.dull_text_popover {
+    font-weight: 400;
+    font-size: .8rem;
+    padding: 0 .2rem;
+    color: rgba(194, 194, 194, 0.586);
+}
+
+
+.firsttab-battery {
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+/* ---------------------- */
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: none !important;
+    background: none !important;
+    box-shadow: 0 !important;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    box-shadow: 0 !important;
+    box-shadow: none !important;
+}
