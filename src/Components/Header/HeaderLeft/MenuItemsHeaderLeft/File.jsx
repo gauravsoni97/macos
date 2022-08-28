@@ -47,7 +47,7 @@ const File = () => {
                     }}
 
                 >
-                    <div className='popoverbox' style={{ minWidth: "200px" }}>
+                    <div className='popoverbox' style={{ minWidth: "230px" }}>
                         <ul className='popovermenu'>
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
@@ -87,7 +87,7 @@ const File = () => {
                             <li className='Header_Left_popover_items'>
                                 <div className='d_flex space_between'>
                                     <p className='dull_text_popover'>Open With</p>
-                                    <p className='dull_text_popover'>&#62;</p>
+                                    <p className='dull_text_popover'></p>
                                 </div>
                             </li>
 

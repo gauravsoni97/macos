@@ -7,7 +7,7 @@ import "../../HeaderRight/MenuItemsHeaderRight/PopoverStyle.css"
 
 
 
-const Help = () => {
+const AboutFinder = () => {
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -28,7 +28,7 @@ const Help = () => {
         <>
 
             <li className='menuitem' aria-describedby={id} variant="contained" onClick={handleClick}>
-                Help
+            <b>Finder</b>
             </li>
 
 
@@ -47,34 +47,66 @@ const Help = () => {
                     }}
 
                 >
-                    <div className='popoverbox' style={{ minWidth: "350px" }}>
-                    <div className='d_flex space_between'>
-                                    <input type="text" className='helpSearch' placeholder='Search' />
-                                </div>
+                    <div className='popoverbox' style={{ minWidth: "230px" }}>
                         <ul className='popovermenu'>
-                        
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>macOS Help</p>
+                                    <p className='bright_text_popover'>About Finder</p>
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>
+
                             <li className='custom_hr'></li>
+
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>See What's New in macOS</p>
-                                    <p className='dull_text_popover'></p>
+                                    <p className='bright_text_popover'>Preferences...</p>
+                                    <p className='dull_text_popover'>⌘ ,</p>
+                                </div>
+                            </li>
+
+                            <li className='custom_hr'></li>
+
+                            <li className='Header_Left_popover_items '>
+                                <div className='d_flex space_between'>
+                                    <p className='dull_text_popover'>Empty Bin...</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ &#9003;</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>New to Mac? Learn the Basics</p>
+                                    <p className='bright_text_popover'>Services</p>
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>
 
-                          
+                            <li className='custom_hr'></li>
+
+                            <li className='Header_Left_popover_items bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'>Hide Finder</p>
+                                    <p className='dull_text_popover'>⌘ H</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'>Hide Others</p>
+                                    <p className='dull_text_popover'>⌥ ⌘ H</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items '>
+                                <div className='d_flex space_between'>
+                                    <p className='dull_text_popover'>Show All</p>
+                                    <p className='dull_text_popover'></p>
+                                </div>
+                            </li>
+                         
+
+                           
+
                             
 
                         
@@ -89,4 +121,4 @@ const Help = () => {
     )
 }
 
-export default Help
+export default AboutFinder

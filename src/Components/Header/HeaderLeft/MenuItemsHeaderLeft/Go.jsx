@@ -47,130 +47,136 @@ const Go = () => {
                     }}
 
                 >
-                    <div className='popoverbox' style={{ minWidth: "200px" }}>
+                    <div className='popoverbox' style={{ minWidth: "220px" }}>
                         <ul className='popovermenu'>
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
+                            <li className='Header_Left_popover_items   '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>New Finder Window</p>
-                                    <p className='dull_text_popover'>⌘ N</p>
+                                    <p className='dull_text_popover'>Back</p>
+                                    <p className='dull_text_popover'>⌘ &#91;</p>
                                 </div>
                             </li>
-
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>New Folder</p>
-                                    <p className='dull_text_popover'>⇧ ⌘ N</p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
-                                <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>New Smart Folder</p>
-                                    <p className='dull_text_popover'></p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
-                                <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>New Tab</p>
-                                    <p className='dull_text_popover'>⌘ T</p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
-                                <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>Open</p>
-                                    <p className='dull_text_popover'>⌘ O</p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Open With</p>
-                                    <p className='dull_text_popover'>&#62;</p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
-                                <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>Close Window</p>
-                                    <p className='dull_text_popover'>⌘ W</p>
-                                </div>
-                            </li>
-                            <li className='custom_hr'></li>
-
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Get Info</p>
-                                    <p className='dull_text_popover'>⌘ I</p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Rename</p>
-                                    <p className='dull_text_popover'></p>
-                                </div>
-                            </li>
-
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Compress</p>
-                                    <p className='dull_text_popover'></p>
-                                </div>
-                            </li>
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Duplicate</p>
-                                    <p className='dull_text_popover'>⌘ D</p>
-                                </div>
-                            </li>
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Make Alias</p>
-                                    <p className='dull_text_popover'>&#708;⌘ A</p>
-                                </div>
-                            </li>
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Quick Look</p>
-                                    <p className='dull_text_popover'>⌘ Y</p>
-                                </div>
-                            </li>
-                            <li className='Header_Left_popover_items '>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Print</p>
-                                    <p className='dull_text_popover'>⌘ P</p>
-                                </div>
-                            </li>
-                            <li className='custom_hr'></li>
 
                             <li className='Header_Left_popover_items '>
                                 <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Share</p>
+                                    <p className='dull_text_popover'>Forward</p>
+                                    <p className='dull_text_popover'>⌘ &#93;</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'>Enclosing Folder</p>
+                                    <p className='dull_text_popover'>⌘ &#9650;</p>
+                                </div>
+                            </li>
+
+
+                            <li className='custom_hr'></li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-clock-eight"></i>  Recents</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ F</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'> <i class="uil uil-file"></i> Documents</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ O</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-window-maximize"></i> Desktop</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ D</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-arrow-circle-down"></i> Downloads</p>
+                                    <p className='dull_text_popover'>⌘ L</p>
+                                </div>
+                            </li>
+                          
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-home"></i> Home</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ H</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-laptop"></i> Computer</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ C</p>
+                                </div>
+                            </li>
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-bullseye"></i> AirDrop</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ R</p>
+                                </div>
+                            </li>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-globe"></i> Network</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ K</p>
+                                </div>
+                            </li>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-cloud"></i> iCloud Drive</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ I</p>
+                                </div>
+                            </li>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-wallet"></i> Shared</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ S</p>
+                                </div>
+                            </li>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-letter-english-a"></i> Applications</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ A</p>
+                                </div>
+                            </li>
+                    
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'><i class="uil uil-ruler"></i> Utilties</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ U</p>
+                                </div>
+                            </li>
+
+                            <li className='custom_hr'></li>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item'>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'>Recent Folders</p>
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>
-                            <li className='custom_hr'></li>
-                            <li className='Header_Left_popover_items'>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Move To Bin</p>
-                                    <p className='dull_text_popover'>⌘ &#9003;</p>
-                                </div>
-                            </li>
-                            <li className='Header_Left_popover_items '>
-                                <div className='d_flex space_between'>
-                                    <p className='dull_text_popover'>Eject</p>
-                                    <p className='dull_text_popover'>⌘ E</p>
-                                </div>
-                            </li>
 
                             <li className='custom_hr'></li>
 
-                            <li className='Header_Left_popover_items bright_text_popover_Item'>
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>Find</p>
-                                    <p className='dull_text_popover'>⌘ F</p>
+                                    <p className='bright_text_popover'>Go to Folders</p>
+                                    <p className='dull_text_popover'>⇧ ⌘ G</p>
+                                </div>
+                            </li>
+
+                          
+
+                            <li className='Header_Left_popover_items  bright_text_popover_Item '>
+                                <div className='d_flex space_between'>
+                                    <p className='bright_text_popover'>Connect to Server...</p>
+                                    <p className='dull_text_popover'>⌘ K</p>
                                 </div>
                             </li>
                            

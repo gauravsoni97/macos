@@ -28,7 +28,7 @@
 }
 
 .custom_hr {
-    border-top: .1px solid rgba(161, 161, 161, 0.68);
+    border-top: .1px solid rgba(161, 161, 161, 0.451);
     margin: .3rem 0;
 }
 
@@ -48,8 +48,8 @@
 
 
 
-.bright_text_popover {
-    font-weight: 400;
+.bright_text_popover , .dull_text_popover {
+    font-weight: 600;
     font-size: .8rem;
     padding: 0 .2rem;
 }
@@ -60,11 +60,14 @@
     border-radius: 3px;
 }
 
+.bright_text_popover_Item:hover .dull_text_popover{
+    color: white;
+
+}
+
 
 .dull_text_popover {
-    font-weight: 400;
-    font-size: .8rem;
-    padding: 0 .2rem;
+   
     color: rgba(194, 194, 194, 0.586);
 }
 
@@ -74,6 +77,19 @@
 }
 
 
+
+.helpSearch{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.443);
+    width: 100%;
+    padding: .3rem .2rem;
+    border-radius: .3rem;
+    outline: none;
+        -moz-box-shadow:    inset 0 0 10px #0000003d;
+        -webkit-box-shadow: inset 0 0 10px #00000045;
+        box-shadow:         inset 0 0 10px #00000034;
+}
 
 
 
