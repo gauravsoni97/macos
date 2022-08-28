@@ -1,6 +1,7 @@
 import React from 'react'
 import PopoverBox from '../Popover/PopoverBox'
 import "./PlaygroundArea.css"
+import RightClickPopover from './RightClickPopover/RightClickPopover'
 
 
 
@@ -27,9 +28,8 @@ const PlaygroundArea = () => {
 
   return (
     <div className='PlaygroundArea'>PlaygroundArea
-    
+    {/* <RightClickPopover/> */}
 
-    {/* <PopoverBox/> */}
     
     </div>
   )

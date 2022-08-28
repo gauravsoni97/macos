@@ -1,0 +1,93 @@
+.login_page {
+    color: white;
+    background-color: rgba(0, 0, 1, 0.57);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -4rem;
+
+}
+
+.ownername {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black;
+}
+
+.loginform .userdp {
+    width: 150px;
+    height: 150px;
+    background-image: url("../../Imgs/login/user.jpeg");
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.password_field {
+    
+    background-color: rgba(255, 255, 255, 0.655);
+    padding: .2rem .8rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.password_field input {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .9rem;
+    /* width: 180px; */
+}
+
+
+.uil-arrow-circle-right{
+    font-size: 1.4rem;
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+
+.cancelbtn {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.cancel_circle{
+    background-color: rgba(180, 180, 180, 0.422);
+    padding: 1rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+.uil-multiply{
+font-size: 1.2rem;    
+font-weight: bold;
+color: rgb(224, 224, 224);
+}
