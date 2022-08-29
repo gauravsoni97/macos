@@ -1,5 +1,17 @@
 .PlaygroundArea{
     width: 100vw;
     height: 90vh;
-    /* background-color: rgb(121, 133, 160); */
+}
+
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+
+.uil-check_rightclick{
+    position: relative;
+    left: -1rem;
 }
