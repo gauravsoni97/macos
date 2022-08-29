@@ -1,14 +1,12 @@
 import React from 'react'
 import Main from '../Main/Main'
 
-const AppStore = () => {
+const Contacts = () => {
   return (
     <>
     <Main/>
-
-
     </>
   )
 }
 
-export default AppStore
+export default Contacts

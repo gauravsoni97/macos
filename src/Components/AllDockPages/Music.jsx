@@ -1,14 +1,12 @@
 import React from 'react'
 import Main from '../Main/Main'
 
-const AppStore = () => {
+const Music = () => {
   return (
     <>
     <Main/>
-
-
     </>
   )
 }
 
-export default AppStore
+export default Music
