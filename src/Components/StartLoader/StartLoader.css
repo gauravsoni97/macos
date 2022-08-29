@@ -1,0 +1,41 @@
+.AppleLoader{
+    background-color: black !important;
+    color: white !important;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ApplelogoImg{
+    width: 100px;
+    margin: 1rem auto;
+}
+
+
+.loading_animation{
+    width: 13vw;
+}
+
+
+.css-eglki6-MuiLinearProgress-root{
+    border: 1px solid white !important;
+    background-color: transparent !important;
+    border-radius: 50px;
+}
+
+
+.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: white !important;
+    border-radius: 50px !important;
+}
