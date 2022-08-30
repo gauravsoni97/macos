@@ -1,12 +1,19 @@
 .popoverbox {
     background-color: rgba(29, 29, 29, 0.519);
-    color: white;
+    color: rgb(246, 246, 246);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.303);
     padding: .5rem;
     border-radius: .5rem;
     box-shadow: 0;
     margin-top: .3rem;
+}
+
+
+
+.header-right-popoverbox{
+
+    padding: .0rem .6rem .3rem;
 }
 
 
@@ -102,4 +109,87 @@
 .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
     box-shadow: 0 !important;
     box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+/* --------------  wifi 
+ */
+
+
+ .wifi_symbol{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .3rem .7rem .3rem 0;
+    background-color: rgba(220, 220, 220, 0.158);
+ }
+
+ .main_item_text{
+    color: gainsboro;
+    font-weight: 600;
+    font-size: .8rem;
+    margin-bottom: .2rem;
+ }
+
+ .wifi_name{
+    font-size: .9rem;
+    font-weight: 500;
+ }
+
+
+ .pref-wifi{
+    background-color: #0565E1;
+    color: white;
+ }
+
+
+.uil-wifi{
+    font-size: 1.1rem;
+}
+
+
+ .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #f7f7f7 !important;
+}
+
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #41a1ff !important;
+}
+
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+    background-color: transparent !important;
+    color: white !important;
+    box-shadow: none !important;
+    min-height: 1rem !important;
+}
+
+.uil-angle-down , .paracol{
+    background-color: transparent !important;
+    color: gainsboro !important;
+   
+}
+
+
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root, .css-o4b71y-MuiAccordionSummary-content ,.css-15v22id-MuiAccordionDetails-root{
+    padding: 0  !important;
+    margin: 0 !important;
+}
+
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    min-height: 1px !important;
 }
