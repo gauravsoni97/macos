@@ -60,6 +60,8 @@ const Battery = () => {
                 </div>
                 <p className='sec_text_popover'>Power Source: Battery</p>
               </li>
+
+              <li className='custom_hr'></li>
              
               <li className='popover_items'>Battery Preferences...</li>
             </ul>

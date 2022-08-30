@@ -13,7 +13,6 @@
 .popovermenu .popover_items {
     font-size: .8rem;
     padding: .3rem 0;
-    border-bottom: .5px solid rgba(88, 88, 88, 0.775);
 }
 
 .popovermenu .popover_items:nth-last-child(1) {
