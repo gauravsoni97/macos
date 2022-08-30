@@ -65,7 +65,7 @@ const App = () => {
             <Route path="appstore" element={<AppStore />} />
             <Route path="podcasts" element={<Podcasts />} />
             <Route path="settings" element={<Settings />} />
-            <Route path="/" element={<Login />} />
+            <Route exact path="/" element={<Login />} />
 
 
 
