@@ -1,7 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./Login.css";
 
+
 const Login = () => {
+    const navigate = useNavigate();
+
+
+    const loginbtn =()=>{
+        navigate("/home")
+    }
+
+
     return (
         <>
             <div className="login_page">
@@ -13,7 +23,7 @@ const Login = () => {
                         </div>
                         <div className="password_field">
                             <input type="password" placeholder='Enter Password'  />
-                            <span className='submitbtn'><i class="uil uil-arrow-circle-right"></i></span>
+                            <span className='submitbtn' onClick={()=>loginbtn()}><i class="uil uil-arrow-circle-right"></i></span>
                         </div>
 
                     </div>

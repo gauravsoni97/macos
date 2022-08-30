@@ -50,7 +50,7 @@ const App = () => {
 
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<NewStart />} />
+            <Route path="/home" element={<NewStart />} />
             {/* ------------- Docks imports ---------------- */}
             <Route path="finder" element={<Finder />} />
             <Route path="launchpad" element={<Launchpad />} />
@@ -65,15 +65,13 @@ const App = () => {
             <Route path="appstore" element={<AppStore />} />
             <Route path="podcasts" element={<Podcasts />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="/" element={<Login />} />
 
 
 
-            <Route path="/login" element={<Login />} />
           </Routes>
         </BrowserRouter>
-
       }
-
 
     </>
   )
