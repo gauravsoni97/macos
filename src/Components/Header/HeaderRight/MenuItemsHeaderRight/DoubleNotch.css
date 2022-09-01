@@ -1,0 +1,115 @@
+.Glass_box{
+    background-color: rgba(55, 51, 51, 0.34);
+    color: rgb(246, 246, 246);
+    backdrop-filter: blur(0px) !important;
+    border: 1px solid rgba(59, 53, 53, 0.107);
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 0;
+   margin: .3rem;
+}
+
+
+.inside_box_top{
+    align-items: flex-start;
+    height: 100%;
+}
+
+.insidebox_left , .insidebox_right{
+    width: 50%;
+
+}
+
+.wifitab {
+    height: 150px;
+    overflow: hidden;
+
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+
+.twobottomsq{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+
+
+
+.left_img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.168);
+}
+
+
+.wifi_boxes{
+    display: flex;
+    align-items: center;
+    margin: .3rem 0;
+    
+}
+
+.main_heading{
+    font-size: .85rem;
+}
+
+.sub_head{
+    font-size: .7rem;
+    color: rgba(183, 183, 183, 0.632);
+}
+
+.righttext{
+    margin-left: .5rem;
+}
+
+.focustab{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    min-height: 70px;
+}
+.small_text{
+    text-align: center;
+    font-size: .55rem;
+}
+
+.activelinkbg{
+    background-color: #0772ff;
+}
+
+
+
+
+/* slider  */
+
+.css-14pt78w-MuiSlider-rail {
+    padding: .7rem 0 !important;
+}
+
+.css-1gv0vcd-MuiSlider-track {
+    padding: .6rem 0 !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+    transform: translate(-100%, -50%) !important;
+}
+
+
+.last_sec_head{
+    margin-bottom: .5rem;
+}
