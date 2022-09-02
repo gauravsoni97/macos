@@ -15,3 +15,52 @@
     position: relative;
     left: -1rem;
 }
+
+
+
+
+
+
+/* ------  */
+
+/* new folder css  */
+
+
+
+.add_new_folder{
+    position: relative;
+    top: 2rem;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.newfolder_img_style{
+    max-width: 80px;
+}
+
+
+.foldername{
+    font-size: .7rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: .4rem;
+
+}
+
+
+.new_folder_box{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
