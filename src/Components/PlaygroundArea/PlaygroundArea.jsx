@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 
 import folder from '../../Imgs/folderimg/folder.png'
 import NewFolder from './NewFolder/NewFolder';
+import NewFolderOpenWindow from './NewFolder/NewFolderOpenWindow';
 
 
 
@@ -26,6 +27,8 @@ const PlaygroundArea = () => {
 
   const [newFolderName, setnewFolderName] = React.useState("Untitled folder");
 
+  const [newFolderWindow, setNewFolderWindow] = React.useState(false)
+
 
   // create new folder 
 
@@ -37,6 +40,12 @@ const PlaygroundArea = () => {
 
 
 
+
+  // open window 
+
+  const openWindow = () => {
+    return setNewFolderWindow(true)
+  }
 
 
 
@@ -90,11 +99,13 @@ const PlaygroundArea = () => {
 
 
         <div className='popoverbox' style={{ minWidth: "230px" }} onClick={handleClose}>
+
+
           <ul className='popovermenu'>
 
             <li className='Header_Left_popover_items bright_text_popover_Item'>
               <div className='d_flex space_between'>
-                <p className='bright_text_popover' onClick={ createNewFolder }>New Folder</p>
+                <p className='bright_text_popover' onClick={createNewFolder}>New Folder</p>
                 <p className='dull_text_popover'></p>
               </div>
             </li>
@@ -154,18 +165,31 @@ const PlaygroundArea = () => {
 
       {/* --------------------- New folder set  --------------------- */}
 
-      <div className="add_new_folder">
+      <div className="add_new_folder" onDoubleClick={openWindow}>
 
-       {newfolder.map((e,index)=>{
-        return(
-          <>
-          <NewFolder index={index} newFolderName={newFolderName} />
-          </>
-        )
-       })}
+        {newfolder.map((e, index) => {
+          return (
+            <>
+              <NewFolder index={index} newFolderName={newFolderName} />
+            </>
+          )
+        })}
 
       </div>
 
+
+
+
+
+
+
+      {/* open window div  */}
+
+      {newFolderWindow ? (<NewFolderOpenWindow />) : ""}
+
+
+
+      {/* playground area ends here  */}
 
     </div>
   )

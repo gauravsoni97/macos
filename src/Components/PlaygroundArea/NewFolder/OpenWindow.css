@@ -1,0 +1,145 @@
+.NewFolderOpenWindow{
+    width: 90vw;
+    height: 80vh;
+    background-color: rgba(22, 21, 21, 0.643);
+    backdrop-filter: blur(50px);
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px groove gray;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.openwindow_left{
+    width: 15%;
+    height: 100%;
+    padding: 1rem;
+    overflow: auto;
+    border-right: 1px solid black;
+}
+
+.openwindow_right{
+   
+    width: 85%;
+    background-color: rgba(23, 23, 23, 0.891);
+    height: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+
+/* close minimize and yellow btn top left 
+ */
+
+
+ /* left side  */
+
+ .action-btns-window {
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 1rem;
+ }
+
+ .top-left-btns {
+     margin:0 .2rem;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+    }
+    .top-left-btn1{
+        background-color: #ee5a48;
+    }
+    .top-left-btn2{
+        background-color: #f1c044;
+    }
+    .top-left-btn3{
+        background-color: #63d44d;
+    }
+
+
+
+
+    .menuItemList {
+        margin: 1.5rem 0;
+
+    }
+
+    .menuItemList .menuItemHeading{
+        font-size: .8rem;
+        font-weight: 600;
+        color: rgb(148, 148, 148);
+        margin-bottom: .5rem;
+    }
+
+
+
+.menuItems .items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.item_name{
+    font-size: .9rem;
+    margin-left: .5rem;
+
+}
+
+
+.color_circle{
+    width: 10px;
+ height: 10px;
+ border-radius: 50%;
+}
+
+.color_box{
+    margin: .5rem 0;
+}
+
+
+.item-box{
+    display: flex;
+    align-items: center;
+    margin: .3rem 0;
+}
+
+
+
+/* Right side 
+ */
+
+ .headerof_topRight_OW{
+    height: 4rem;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgb(46, 46, 46);
+    color: gray;
+ }
+
+
+ .left-right-angles{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 50px;
+     margin: 0 1rem;
+    }
+    .left-right-angles .uil{
+        font-size: 1.5rem;
+    }
+
+
+    .foldernameopened{
+        font-weight: 600;
+        font-size: .9rem;
+        color: white !important;
+    }
