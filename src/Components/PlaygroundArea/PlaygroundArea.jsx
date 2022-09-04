@@ -27,7 +27,8 @@ const PlaygroundArea = () => {
 
   const [newFolderName, setnewFolderName] = React.useState("Untitled folder");
 
-  const [newFolderWindow, setNewFolderWindow] = React.useState(false)
+  const [newFolderWindow, setNewFolderWindow] = React.useState(false);
+
 
 
   // create new folder 
@@ -44,7 +45,7 @@ const PlaygroundArea = () => {
   // open window 
 
   const openWindow = () => {
-    return setNewFolderWindow(true)
+    return setNewFolderWindow(true) 
   }
 
 
@@ -185,7 +186,7 @@ const PlaygroundArea = () => {
 
       {/* open window div  */}
 
-      {newFolderWindow ? (<NewFolderOpenWindow />) : ""}
+      {newFolderWindow ? (<NewFolderOpenWindow  />) : ""}
 
 
 
