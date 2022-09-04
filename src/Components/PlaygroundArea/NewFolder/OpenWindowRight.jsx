@@ -15,7 +15,7 @@ const OpenWindowRight = () => {
 
                         <div className="foldername-opened d_flex">
                             <div className="folderimg">
-                                <img style={{width:"20px", marginRight:".5rem"}} src={folder} alt="" />
+                                <img style={{ width: "20px", marginRight: ".5rem" }} src={folder} alt="" />
                             </div>
                             <p className='foldernameopened' >Untitled folder</p>
                         </div>
@@ -23,7 +23,22 @@ const OpenWindowRight = () => {
 
                     </div>
 
-                    <div className="header-rightside"></div>
+                    <div className="header-rightside">
+                        <i class="uil uil-apps activeviewofApp"></i>
+                        <i class="uil uil-list-ul"></i>
+                        <i class="uil uil-grids"></i>
+                        <i class="uil uil-airplay"></i>
+
+                        <i class="uil uil-elipsis-double-v-alt"></i>
+                        <i class="uil uil-upload"></i>
+                        <i class="uil uil-pricetag-alt"></i>
+                        <i class="uil uil-ellipsis-h"></i>
+
+                        <div className="Searchbar-inFolder-div">
+                        <i class="uil uil-search"></i>
+                            <input type="text" placeholder='search' className='searchbar_in_Folder' />
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

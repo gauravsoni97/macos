@@ -123,6 +123,10 @@
     border-top-right-radius: 1rem;
     background-color: rgb(46, 46, 46);
     color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
 
 
@@ -142,4 +146,51 @@
         font-weight: 600;
         font-size: .9rem;
         color: white !important;
+    }
+
+
+    .header-rightside{
+        color: rgb(158, 158, 158);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .activeviewofApp{
+        background-color: rgba(220, 220, 220, 0.137);
+        width: 2.2rem;
+        height: 2.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: .4rem;
+        color: white !important;
+    }
+    .header-rightside .uil{
+        margin: 0 .8rem;
+        font-size: 1.3rem;
+    }
+
+    .uil-elipsis-double-v-alt{
+         margin-left: 2.5rem !important;
+        transform: rotate(90deg); 
+    }
+
+
+    .Searchbar-inFolder-div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border: 1px solid rgba(63, 63, 63, 0.804);
+        border-radius: .2rem;
+        margin-left: 1rem;
+        min-width: 300px;
+        padding: .1rem;
+    }
+
+    .searchbar_in_Folder{
+        background: transparent;
+        outline: none;
+        border: none;
+        margin-left: .3rem;
     }
