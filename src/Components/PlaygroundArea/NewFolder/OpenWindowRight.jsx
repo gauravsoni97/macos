@@ -17,7 +17,7 @@ const OpenWindowRight = () => {
                             <div className="folderimg">
                                 <img style={{ width: "20px", marginRight: ".5rem" }} src={folder} alt="" />
                             </div>
-                            <p className='foldernameopened' >Untitled folder</p>
+                            <p className='foldernameopened' >Untitled folder </p>
                         </div>
 
 
