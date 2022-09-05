@@ -186,7 +186,7 @@ const PlaygroundArea = () => {
 
       {/* open window div  */}
 
-      {newFolderWindow ? (<NewFolderOpenWindow  />) : ""}
+      {newFolderWindow ? (<NewFolderOpenWindow setNewFolderWindow={setNewFolderWindow} />) : ""}
 
 
 

@@ -5,11 +5,11 @@ import OpenWindowLeft from './OpenWindowLeft'
 import OpenWindowRight from './OpenWindowRight'
 
 
-const NewFolderOpenWindow = ({closeFolder}) => {
+const NewFolderOpenWindow = ({setNewFolderWindow}) => {
     return (
         <div className='NewFolderOpenWindow'>
 
-            <OpenWindowLeft  />
+            <OpenWindowLeft setNewFolderWindow={setNewFolderWindow} />
 
             <OpenWindowRight />
         </div>

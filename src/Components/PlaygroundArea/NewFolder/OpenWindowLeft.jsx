@@ -1,12 +1,21 @@
 import React from 'react'
 import { useState } from 'react'
 
-const OpenWindowLeft = () => {
+const OpenWindowLeft = ({setNewFolderWindow}) => {
+
+
+    const closeWindow = () =>{
+        return setNewFolderWindow(false) 
+    }
+
+   
+
+
     return (
         <>
             <div className="openwindow_left">
                 <div className="action-btns-window d_flex">
-                    <div className="closebtn top-left-btns top-left-btn1"></div>
+                    <div className="closebtn top-left-btns top-left-btn1" onClick={closeWindow}></div>
                     <div className="yellowbtn top-left-btns top-left-btn2"></div>
                     <div className="minimizebtn top-left-btns top-left-btn3"></div>
                 </div>
