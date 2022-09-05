@@ -47,9 +47,7 @@ const PlaygroundArea = () => {
 
   // open window 
 
-  const openWindow = () => {
-    return (myData.setNewFolderWindow(true) )
-  }
+ 
 
 
 
@@ -169,13 +167,13 @@ const PlaygroundArea = () => {
 
       {/* --------------------- New folder set  --------------------- */}
 
-      <div className="add_new_folder" onDoubleClick={openWindow}>
+      <div className="add_new_folder" onDoubleClick={myData.openWindow}>
 
-        {newfolder.map((e, index) => {
+        {newfolder.map((index) => {
           return (
-            <>
+            <span key={index}>
               <NewFolder  index={index} newFolderName={newFolderName} />
-            </>
+            </span>
           )
         })}
 

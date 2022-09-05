@@ -6,15 +6,20 @@ const AppContext = createContext();
 
 
 const AppProvider = ({ children }) => {
+    const [newFolderWindow, setNewFolderWindow] = useState(false);
+    
 
-  const [newFolderWindow, setNewFolderWindow] = useState(false);
+    const openWindow = () => {
+        return (setNewFolderWindow(true) )
+      }
+
 
 
     return (
 
         <>
 
-            <AppContext.Provider value={{newFolderWindow, setNewFolderWindow}}>
+            <AppContext.Provider value={{newFolderWindow, setNewFolderWindow, openWindow}}>
 
                 {children}
 
