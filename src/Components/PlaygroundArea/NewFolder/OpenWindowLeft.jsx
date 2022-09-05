@@ -1,11 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
 
-const OpenWindowLeft = ({setNewFolderWindow}) => {
+import { useContext } from 'react'
+import { AppContext } from '../../../ContextData/DockWndowOpenContext/DockWndowOpenContext'
+
+const OpenWindowLeft = () => {
+
+
+    const myData = useContext(AppContext);
+
 
 
     const closeWindow = () =>{
-        return setNewFolderWindow(false) 
+        return (myData.setNewFolderWindow(false) )
     }
 
    
