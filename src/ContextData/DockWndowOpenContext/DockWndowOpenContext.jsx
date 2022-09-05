@@ -1,7 +1,7 @@
 
-import AppContext from "../Create";
+import { createContext } from 'react'
 
-// creating provider 
+const AppContext = createContext();
 
 
 const AppProvider = ({ children }) => {
