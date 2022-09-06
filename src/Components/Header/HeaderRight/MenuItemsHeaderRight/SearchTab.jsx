@@ -8,13 +8,13 @@ const SearchTab = () => {
   const [spotlight, setspotlight] = useState("");
 
   // toggle 
-  const [spotlightSearch, setSpotlightSearch] = useState(true)
+  const [spotlightSearch, setSpotlightSearch] = useState(false)
 
 
 
   return (
     <>
-      <li className='header_right_menu_item'onClick={()=>setSpotlightSearch(!spotlightSearch)} ><img className='header_right_itemimg' src={search} alt="" /></li>
+      <li className='header_right_menu_item' onClick={() => setSpotlightSearch(!spotlightSearch)} ><img className='header_right_itemimg' src={search} alt="" /></li>
 
       {spotlightSearch ?
         <div className="quicksearchbar-div">
