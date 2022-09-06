@@ -170,11 +170,11 @@ const PlaygroundArea = () => {
 
       {/* --------------------- New folder set  --------------------- */}
 
-      <div className="add_new_folder" onDoubleClick={myData.openWindow}>
+      <div className="add_new_folder" >
 
         {newfolder.map((e, index) => {
           return (
-            <NewFolder index={index} newFolderName={newFolderName} />
+            <NewFolder dblclck={myData.openWindow} index={index} newFolderName={newFolderName} />
           )
         })}
 

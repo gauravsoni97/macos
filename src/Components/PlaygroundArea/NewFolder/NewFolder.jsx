@@ -4,7 +4,7 @@ import "../PlaygroundArea.css";
 
 const NewFolder = (props) => {
     return (
-        <span className="new_folder_box" >
+        <span className="new_folder_box" onDoubleClick={props.dblclck}>
             <img className='newfolder_img_style' src={newfolderimg} alt="" />
             <p className="foldername">{props.newFolderName} {props.index >= 1 ? props.index + 1 : ""}</p>
         </span>
