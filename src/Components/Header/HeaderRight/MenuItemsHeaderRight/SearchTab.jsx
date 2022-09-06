@@ -6,21 +6,15 @@ import search from "../../../../Imgs/HeaderRight/search.png"
 const SearchTab = () => {
 
   const [spotlight, setspotlight] = useState("");
-  const [spotlightSearch, setSpotlightSearch] = useState(false)
 
-
-  const showSearchBar = () => {
-    return setSpotlightSearch(true)
-  }
-  const closeSearchbar = () => {
-    return setSpotlightSearch(false)
-  }
+  // toggle 
+  const [spotlightSearch, setSpotlightSearch] = useState(true)
 
 
 
   return (
     <>
-      <li className='header_right_menu_item' onDoubleClick={closeSearchbar} onClick={showSearchBar} ><img className='header_right_itemimg' src={search} alt="" /></li>
+      <li className='header_right_menu_item'onClick={()=>setSpotlightSearch(!spotlightSearch)} ><img className='header_right_itemimg' src={search} alt="" /></li>
 
       {spotlightSearch ?
         <div className="quicksearchbar-div">
