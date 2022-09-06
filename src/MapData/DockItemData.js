@@ -16,31 +16,23 @@ export const DocksItemDataList = [
         path: "/safari"
 
     },
-    {
-        id: 4,
-        img: "dock/messages.png",
-        path: "/messages"
-    },
-    {
-        id: 5,
-        img: "dock/email.png",
-        path: "/email"
-    },
+  
+    // {
+    //     id: 5,
+    //     img: "dock/email.png",
+    //     path: "/email"
+    // },
     {
         id: 6,
         img: "dock/maps.png",
         path: "/maps"
     },
-    {
-        id: 7,
-        img: "dock/photos.png",
-        path: "/photos"
-    },
-    {
-        id: 8,
-        img: "dock/calendar.png",
-        path: "/calendar"
-    },
+  
+    // {
+    //     id: 8,
+    //     img: "dock/calendar.png",
+    //     path: "/calendar"
+    // },
     {
         id: 9,
         img: "dock/contacts.png",
@@ -53,11 +45,6 @@ export const DocksItemDataList = [
     },
 
 
-    {
-        id: 11,
-        img: "dock/appstore.png",
-        path: "/appstore"
-    },
 
 
     {
@@ -65,12 +52,30 @@ export const DocksItemDataList = [
         img: "dock/podcasts.png",
         path: "/podcasts"
     },
+    {
+        id: 11,
+        img: "dock/appstore.png",
+        path: "/appstore"
+    },
 
+    // {
+    //     id: 13,
+    //     img: "dock/settings.png",
+    //     path: "/settings"
+    // },
+    {
+        id: 4,
+        img: "dock/messages.png",
+        path: "/messages"
+    },
 
     {
-        id: 13,
-        img: "dock/settings.png",
-        path: "/settings"
+        id: 7,
+        img: "dock/photos.png",
+        path: "/photos"
     },
+
+
+    
 
 ]
