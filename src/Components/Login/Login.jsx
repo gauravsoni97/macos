@@ -35,7 +35,7 @@ const Login = () => {
                             <p className='ownername'>Gaurav's Mac</p>
                         </div>
                         <div className={error ? 'password_field shakeEffect' : 'password_field'}>
-                            <input type="password" placeholder='Enter Password' value={password} onChange={handleChange} />
+                            <input className='styleoninput' type="password" placeholder='Enter Password' value={password} onChange={handleChange} />
 
                             <span className='submitbtn' onClick={() => loginbtn()}><i class="uil uil-arrow-circle-right"></i></span>
                         </div>

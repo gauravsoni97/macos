@@ -36,8 +36,8 @@
 
 
 .password_field {
-    
-    background-color: rgba(255, 255, 255, 0.655);
+    background-color: rgba(255, 255, 255, 0.333);
+    backdrop-filter: blur(30px);
     padding: .2rem .8rem;
     border-radius: 50px;
     display: flex;
@@ -50,6 +50,11 @@
     color: white;
     font-size: .9rem;
     /* width: 180px; */
+}
+
+
+.styleoninput::placeholder{
+    color: white;
 }
 
 
