@@ -10,7 +10,8 @@ const AppProvider = ({ children }) => {
     
 
     const openWindow = () => {
-        return (setNewFolderWindow(true) )
+        return (setNewFolderWindow(true))
+       
       }
 
 

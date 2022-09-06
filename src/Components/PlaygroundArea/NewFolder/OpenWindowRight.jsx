@@ -2,7 +2,7 @@ import React from 'react'
 
 import folder from "../../../Imgs/folderimg/folder.png"
 
-const OpenWindowRight = () => {
+const OpenWindowRight = ({ isFolder }) => {
     return (
         <>
             <div className="openwindow_right">
@@ -14,10 +14,19 @@ const OpenWindowRight = () => {
                         </div>
 
                         <div className="foldername-opened d_flex">
-                            <div className="folderimg">
-                                <img style={{ width: "20px", marginRight: ".5rem" }} src={folder} alt="" />
-                            </div>
-                            <p className='foldernameopened' >Untitled folder </p>
+                            {isFolder ?
+                                <>
+                                    <p className='foldernameopened' >Finder</p>
+                                </> :
+                                <>
+
+                                    <div className="folderimg">
+                                        <img style={{ width: "20px", marginRight: ".5rem" }} src={folder} alt="" />
+                                    </div>
+                                    <p className='foldernameopened' >Untitled folder </p>
+                                </>
+                            }
+
                         </div>
 
 
@@ -35,7 +44,7 @@ const OpenWindowRight = () => {
                         <i class="uil uil-ellipsis-h"></i>
 
                         <div className="Searchbar-inFolder-div">
-                        <i class="uil uil-search"></i>
+                            <i class="uil uil-search"></i>
                             <input type="text" placeholder='search' className='searchbar_in_Folder' />
                         </div>
                     </div>

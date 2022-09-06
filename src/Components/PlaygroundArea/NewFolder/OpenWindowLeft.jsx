@@ -12,7 +12,7 @@ const OpenWindowLeft = () => {
 
 
     const closeWindow = () =>{
-        return (myData.setNewFolderWindow(false) )
+        return (myData.setNewFolderWindow(false) && console.log("clicked"))
     }
 
    
