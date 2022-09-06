@@ -8,7 +8,7 @@ import logo from "../../../../Imgs/appleLogo/applelogoblack.png"
 
 
 
-const AboutMac = () => {
+const AboutMac = ({setRestartModal}) => {
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -110,7 +110,7 @@ const AboutMac = () => {
 
                             <li className='Header_Left_popover_items bright_text_popover_Item  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>Restart...</p>
+                                    <p className='bright_text_popover' onClick={()=>setRestartModal(true)} >Restart...</p>
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>

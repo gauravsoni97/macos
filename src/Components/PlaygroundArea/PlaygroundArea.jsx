@@ -15,6 +15,7 @@ import NewFolderOpenWindow from './NewFolder/NewFolderOpenWindow';
 
 import { useContext } from 'react';
 import { AppContext } from '../../ContextData/DockWndowOpenContext/DockWndowOpenContext';
+import Restart from '../Restart/Restart';
 
 
 
@@ -29,6 +30,8 @@ const PlaygroundArea = () => {
   const [newfolder, setNewfolder] = React.useState([]);
 
   const [newFolderName, setnewFolderName] = React.useState("Untitled folder");
+
+
 
 
   const myData = useContext(AppContext);
@@ -47,7 +50,7 @@ const PlaygroundArea = () => {
 
   // open window 
 
- 
+
 
 
 
@@ -171,7 +174,7 @@ const PlaygroundArea = () => {
 
         {newfolder.map((e, index) => {
           return (
-              <NewFolder  index={index} newFolderName={newFolderName} />
+            <NewFolder index={index} newFolderName={newFolderName} />
           )
         })}
 
@@ -185,9 +188,12 @@ const PlaygroundArea = () => {
 
       {/* open window div  */}
 
-      {myData.newFolderWindow ? (<NewFolderOpenWindow  />) : ""}
+      {myData.newFolderWindow ? (<NewFolderOpenWindow />) : ""}
 
 
+
+
+     
 
       {/* playground area ends here  */}
 
