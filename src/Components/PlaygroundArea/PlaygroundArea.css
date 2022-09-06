@@ -28,7 +28,7 @@
 
 
 .add_new_folder{
-    position: relative;
+    position: absolute;
     top: 2rem;
     width: 100vw;
     height: 90vh;

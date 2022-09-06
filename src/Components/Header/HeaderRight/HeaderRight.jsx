@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./HeaderRight.css"
 import Battery from './MenuItemsHeaderRight/Battery'
 import DateandTime from './MenuItemsHeaderRight/DateandTime'
@@ -11,6 +11,8 @@ import Wifi from './MenuItemsHeaderRight/Wifi'
 
 
 const HeaderRight = () => {
+
+  
   return (
     <div className='header_right' >
       <ul className='header_right_menu'>
@@ -22,7 +24,10 @@ const HeaderRight = () => {
 
         {/* ------------------------------------  Search - Header right  */}
 
+
         <SearchTab />
+
+    
         {/* ------------------------------------  Double Toggle - Header right  */}
 
         <DoubleToggle />
