@@ -16,7 +16,7 @@ const OpenWindowRight = ({ isFolder }) => {
                         <div className="foldername-opened d_flex">
                             {isFolder ?
                                 <>
-                                    <p className='foldernameopened' >Finder</p>
+                                    <p className='foldernameopened' >Recents</p>
                                 </> :
                                 <>
 

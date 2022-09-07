@@ -17,7 +17,7 @@
 
 
 .openwindow_left{
-    width: 13%;
+    width: 11%;
     height: 100%;
     padding: 1rem;
     overflow: auto;
@@ -26,7 +26,7 @@
 
 .openwindow_right{
    
-    width: 87%;
+    width: 89%;
     background-color: rgba(23, 23, 23, 0.891);
     height: 100%;
     border-top-right-radius: 1rem;
@@ -108,7 +108,8 @@
 .item-box{
     display: flex;
     align-items: center;
-    margin: .3rem 0;
+    margin: .34rem 0;
+    padding: 0.1rem .3rem;
 }
 
 

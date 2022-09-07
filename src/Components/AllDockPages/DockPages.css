@@ -1,3 +1,13 @@
+
+/* Finder  */
+
+.active_itembox{
+    background-color: rgba(255, 255, 255, 0.181);
+    border-radius: .3rem;
+    
+}
+
+
 /* FOR LAUNCHPAD  */
 
 .MainLaunchPad_UI {

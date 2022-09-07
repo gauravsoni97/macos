@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Main from '../Main/Main'
-
+import { useNavigate } from 'react-router-dom'
 import safaricenter from "../../Imgs/safari.png"
 
 
@@ -8,15 +8,15 @@ import safaricenter from "../../Imgs/safari.png"
 
 const Safari = () => {
 
+  const navigate = useNavigate();
 
   const [isFolder, setisFolder] = useState(true)
 
 
   const closeWindow = () => {
     return (
-
+      navigate("/home", { replace: true }) &&
       setisFolder(false)
-
     )
   }
 

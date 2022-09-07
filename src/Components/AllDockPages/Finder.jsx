@@ -62,7 +62,7 @@ const navigate = useNavigate();
                                     <p className='item_name'>AirDrop</p>
 
                                 </span>
-                                <span className="item-box">
+                                <span className="item-box active_itembox">
 
                                     <i className="uil uil-clock-seven" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Recents</p>
