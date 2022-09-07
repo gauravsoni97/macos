@@ -8,164 +8,164 @@ export const LaunchPadData =[
     {
         id:2,
         img:"./launchpadimg/img2.png",
-        name:"App Store",
+        name:"Calendar",
 
     },
     {
         id:3,
         img:"./launchpadimg/img3.png",
-        name:"App Store",
+        name:"Contacts",
 
     },
     {
         id:4,
         img:"./launchpadimg/img4.png",
-        name:"App Store",
+        name:"Mail",
 
     },
     {
         id:5,
         img:"./launchpadimg/img5.png",
-        name:"App Store",
+        name:"Finder",
 
     },
     {
         id:6,
         img:"./launchpadimg/img6.png",
-        name:"App Store",
+        name:"Maps",
 
     },
     {
         id:7,
         img:"./launchpadimg/img7.png",
-        name:"App Store",
+        name:"Messages",
 
     },
     {
         id:8,
         img:"./launchpadimg/img8.png",
-        name:"App Store",
+        name:"Music",
 
     },
     {
         id:9,
         img:"./launchpadimg/img9.png",
-        name:"App Store",
+        name:"Photos",
 
     },
     {
         id:10,
         img:"./launchpadimg/img10.png",
-        name:"App Store",
+        name:"Podcasts",
 
     },
     {
         id:11,
         img:"./launchpadimg/img11.png",
-        name:"App Store",
+        name:"Safari",
 
     },
     {
         id:12,
         img:"./launchpadimg/img12.png",
-        name:"App Store",
+        name:"Settings",
 
     },
     {
         id:14,
         img:"./launchpadimg/img14.png",
-        name:"App Store",
+        name:"Activity Monitor",
 
     },
     {
         id:15,
         img:"./launchpadimg/img15.png",
-        name:"App Store",
+        name:"Calculator",
 
     },
     {
         id:16,
         img:"./launchpadimg/img16.png",
-        name:"App Store",
+        name:"Discord",
 
     },
     {
         id:17,
         img:"./launchpadimg/img17.png",
-        name:"App Store",
+        name:"Disney",
 
     },
   
     {
         id:19,
         img:"./launchpadimg/img19.png",
-        name:"App Store",
+        name:"File Zilla",
 
     },
     {
         id:20,
         img:"./launchpadimg/img20.png",
-        name:"App Store",
+        name:"GIMP",
 
     },
     {
         id:21,
         img:"./launchpadimg/img21.png",
-        name:"App Store",
+        name:"Kindle",
 
     },
     {
         id:22,
         img:"./launchpadimg/img22.png",
-        name:"App Store",
+        name:"Netflix",
 
     },
     {
         id:24,
         img:"./launchpadimg/img24.png",
-        name:"App Store",
+        name:"Photoshop",
 
     },
     {
         id:25,
         img:"./launchpadimg/img25.png",
-        name:"App Store",
+        name:"Power Point",
 
     },
     {
         id:26,
         img:"./launchpadimg/img26.png",
-        name:"App Store",
+        name:"Slack",
 
     },
     {
         id:27,
         img:"./launchpadimg/img27.png",
-        name:"App Store",
+        name:"Spotify",
 
     },
     {
         id:28,
         img:"./launchpadimg/img28.png",
-        name:"App Store",
+        name:"Telegram",
 
     },
     {
         id:29,
         img:"./launchpadimg/img29.png",
-        name:"App Store",
+        name:"Youtube",
 
     },
     {
         id:30,
         img:"./launchpadimg/img30.png",
-        name:"App Store",
+        name:"Reminder",
 
     },
     {
         id:31,
         img:"./launchpadimg/img31.png",
-        name:"App Store",
+        name:"Zoom",
 
     },
   
