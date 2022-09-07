@@ -11,6 +11,7 @@
     border-radius: 1rem;
     padding: .2rem .5rem;
     border: 1px solid rgba(128, 128, 128, 0.424);
+    z-index: 204950;
     
 }
 .docks_section .doc_item .doc_imgs{
