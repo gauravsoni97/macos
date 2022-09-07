@@ -4,13 +4,11 @@ import Popover from '@mui/material/Popover';
 
 import "../../HeaderRight/MenuItemsHeaderRight/PopoverStyle.css"
 
-import { useHistory, useLocation } from 'react-router-dom';
+import {  useLocation } from 'react-router-dom';
 
 
 const AboutFinder = () => {
     const location = useLocation()
-    // const history = useHistory()
-    // history.location.pathname
 
 
     const [activePathName, setactivePathName] = React.useState(location.pathname)

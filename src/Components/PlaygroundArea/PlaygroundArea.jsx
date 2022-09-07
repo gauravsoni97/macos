@@ -1,21 +1,15 @@
 import * as React from 'react';
-import PopoverBox from '../Popover/PopoverBox'
 import "./PlaygroundArea.css"
-import RightClickPopover from './RightClickPopover/RightClickPopover'
 import "../../Components/Header/HeaderRight/MenuItemsHeaderRight/PopoverStyle.css"
 
 import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import Typography from '@mui/material/Typography';
 
-import folder from '../../Imgs/folderimg/folder.png'
 import NewFolder from './NewFolder/NewFolder';
 import NewFolderOpenWindow from './NewFolder/NewFolderOpenWindow';
 
 
 import { useContext } from 'react';
 import { AppContext } from '../../ContextData/DockWndowOpenContext/DockWndowOpenContext';
-import Restart from '../Restart/Restart';
 
 
 
