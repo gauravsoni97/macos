@@ -59,14 +59,14 @@ const DoubleToggle = () => {
               <div className="insidebox_left">
                 <div className="Glass_box wifitab">
                   <div className="wifi_boxes">
-                    <div className="left_img_box activelinkbg"><i class="uil uil-wifi"></i></div>
+                    <div className="left_img_box activelinkbg"><i className="uil uil-wifi"></i></div>
                     <div className="righttext">
                       <div className="main_heading">Wi-Fi</div>
                       <p className='sub_head'>FTTH-4326</p>
                     </div>
                   </div>
                   <div className="wifi_boxes">
-                    <div className="left_img_box activelinkbg"><i class="uil uil-bluetooth-b"></i></div>
+                    <div className="left_img_box activelinkbg"><i className="uil uil-bluetooth-b"></i></div>
                     <div className="righttext">
                       <div className="main_heading">Bluetooth</div>
                       <p className='sub_head'>On</p>
@@ -74,7 +74,7 @@ const DoubleToggle = () => {
                   </div>
                   <div className="wifi_boxes">
                     <div className="left_img_box">
-                    <i class="uil uil-bullseye"></i>
+                    <i className="uil uil-bullseye"></i>
                     </div>
                     <div className="righttext">
                       <div className="main_heading">AirDrop</div>
@@ -88,7 +88,7 @@ const DoubleToggle = () => {
 
               <div className="insidebox_right">
                 <div className="Glass_box focustab">
-                  <div className="left_img_box"><i class="uil uil-moon"></i></div>
+                  <div className="left_img_box"><i className="uil uil-moon"></i></div>
                   <div className="righttext">
                     <div className="main_heading">Focus</div>
                   </div>
@@ -97,11 +97,11 @@ const DoubleToggle = () => {
 
                 <div className="Glass_box_bottom d_flex">
                   <div className="Glass_box twobottomsq">
-                  <i class="uil uil-sunset"></i>
+                  <i className="uil uil-sunset"></i>
                     <p className='small_text'>Keyboard Brightness</p>
                   </div>
                   <div className="Glass_box twobottomsq">
-                  <i class="uil uil-minus-path"></i>
+                  <i className="uil uil-minus-path"></i>
                     <p className='small_text'>Screen Mirroring</p>
                   </div>
                 </div>

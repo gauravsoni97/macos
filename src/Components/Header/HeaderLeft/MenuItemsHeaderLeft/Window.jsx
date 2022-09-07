@@ -104,14 +104,14 @@ const Window = () => {
                             <li className='Header_Left_popover_items'>
                                 <div className='d_flex space_between'>
                                     <p className='dull_text_popover'>Show Previous Tab</p>
-                                    <p className='dull_text_popover'><i class="uil uil-angle-up"></i> ⇧ <i class="uil uil-arrow-to-right"></i></p>
+                                    <p className='dull_text_popover'><i className="uil uil-angle-up"></i> ⇧ <i className="uil uil-arrow-to-right"></i></p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items'>
                                 <div className='d_flex space_between'>
                                     <p className='dull_text_popover'>Show Next Tab</p>
-                                    <p className='dull_text_popover'><i class="uil uil-angle-up"></i>  <i class="uil uil-arrow-to-right"></i></p>
+                                    <p className='dull_text_popover'><i className="uil uil-angle-up"></i>  <i className="uil uil-arrow-to-right"></i></p>
                                 </div>
                             </li>
 

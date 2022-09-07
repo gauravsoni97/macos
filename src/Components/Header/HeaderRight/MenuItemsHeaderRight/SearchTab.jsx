@@ -18,7 +18,7 @@ const SearchTab = () => {
 
       {spotlightSearch ?
         <div className="quicksearchbar-div">
-          <i class="uil uil-search spotlight_search_icon"></i>
+          <i className="uil uil-search spotlight_search_icon"></i>
           <input className='quicksearchbar' type="text" name='text' placeholder='Spotlight Search' value={spotlight} onChange={(e) => setspotlight(e.target.value)} />
         </div>
         : ""}

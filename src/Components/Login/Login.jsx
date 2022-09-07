@@ -37,13 +37,13 @@ const Login = () => {
                         <div className={error ? 'password_field shakeEffect' : 'password_field'}>
                             <input className='styleoninput' type="password" placeholder='Enter Password' value={password} onChange={handleChange} />
 
-                            <span className='submitbtn' onClick={() => loginbtn()}><i class="uil uil-arrow-circle-right"></i></span>
+                            <span className='submitbtn' onClick={() => loginbtn()}><i className="uil uil-arrow-circle-right"></i></span>
                         </div>
 
                     </div>
                     <div className="cancelbtn">
                         <div className="cancel_circle">
-                            <i class="uil uil-multiply"></i>
+                            <i className="uil uil-multiply"></i>
                         </div>
 
                         <p>Cancel</p>

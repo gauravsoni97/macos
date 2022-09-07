@@ -58,37 +58,37 @@ const navigate = useNavigate();
                             <ul className="menuItems">
                                 <span className="item-box">
 
-                                    <i class="uil uil-bullseye" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-bullseye" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>AirDrop</p>
 
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-clock-seven" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-clock-seven" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Recents</p>
 
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-letter-english-a" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-letter-english-a" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Applications</p>
 
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-window-maximize" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-window-maximize" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Desktop</p>
 
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-file" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-file" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Documents</p>
 
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-arrow-circle-down" style={{ color: '#2184ff' }}></i>
+                                    <i className="uil uil-arrow-circle-down" style={{ color: '#2184ff' }}></i>
                                     <p className='item_name'>Downloads</p>
 
                                 </span>
@@ -102,7 +102,7 @@ const navigate = useNavigate();
                             <ul className="menuItems">
                                 <span className="item-box">
 
-                                    <i class="uil uil-cloud" style={{ color: "grey" }}></i>
+                                    <i className="uil uil-cloud" style={{ color: "grey" }}></i>
                                     <p className='item_name'>iCloud Drive</p>
 
                                 </span>
@@ -160,7 +160,7 @@ const navigate = useNavigate();
                                 </span>
                                 <span className="item-box">
 
-                                    <i class="uil uil-circle-layer"></i>
+                                    <i className="uil uil-circle-layer"></i>
                                     <p className='item_name'>All Tags...</p>
 
                                 </span>

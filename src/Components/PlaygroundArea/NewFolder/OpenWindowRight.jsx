@@ -9,8 +9,8 @@ const OpenWindowRight = ({ isFolder }) => {
                 <div className="headerof_topRight_OW">
                     <div className="header-leftside d_flex">
                         <div className="left-right-angles d_flex" >
-                            <i class="uil uil-angle-left"></i>
-                            <i class="uil uil-angle-right"></i>
+                            <i className="uil uil-angle-left"></i>
+                            <i className="uil uil-angle-right"></i>
                         </div>
 
                         <div className="foldername-opened d_flex">
@@ -33,18 +33,18 @@ const OpenWindowRight = ({ isFolder }) => {
                     </div>
 
                     <div className="header-rightside">
-                        <i class="uil uil-apps activeviewofApp"></i>
-                        <i class="uil uil-list-ul"></i>
-                        <i class="uil uil-grids"></i>
-                        <i class="uil uil-airplay"></i>
+                        <i className="uil uil-apps activeviewofApp"></i>
+                        <i className="uil uil-list-ul"></i>
+                        <i className="uil uil-grids"></i>
+                        <i className="uil uil-airplay"></i>
 
-                        <i class="uil uil-elipsis-double-v-alt"></i>
-                        <i class="uil uil-upload"></i>
-                        <i class="uil uil-pricetag-alt"></i>
-                        <i class="uil uil-ellipsis-h"></i>
+                        <i className="uil uil-elipsis-double-v-alt"></i>
+                        <i className="uil uil-upload"></i>
+                        <i className="uil uil-pricetag-alt"></i>
+                        <i className="uil uil-ellipsis-h"></i>
 
                         <div className="Searchbar-inFolder-div">
-                            <i class="uil uil-search"></i>
+                            <i className="uil uil-search"></i>
                             <input type="text" placeholder='search' className='searchbar_in_Folder' />
                         </div>
                     </div>

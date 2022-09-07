@@ -32,7 +32,7 @@ const Restart = () => {
         <div className='Restart-Box'>
             <div className="restart_Left">
                 <span className='restartlogo'>
-                    <i class="uil uil-triangle restartlogo-style"></i>
+                    <i className="uil uil-triangle restartlogo-style"></i>
                 </span>
             </div>
             <div className="restart_Right">

@@ -75,28 +75,28 @@ const Go = () => {
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-clock-eight"></i>  Recents</p>
+                                    <p className='bright_text_popover'><i className="uil uil-clock-eight"></i>  Recents</p>
                                     <p className='dull_text_popover'>⇧ ⌘ F</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'> <i class="uil uil-file"></i> Documents</p>
+                                    <p className='bright_text_popover'> <i className="uil uil-file"></i> Documents</p>
                                     <p className='dull_text_popover'>⇧ ⌘ O</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-window-maximize"></i> Desktop</p>
+                                    <p className='bright_text_popover'><i className="uil uil-window-maximize"></i> Desktop</p>
                                     <p className='dull_text_popover'>⇧ ⌘ D</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-arrow-circle-down"></i> Downloads</p>
+                                    <p className='bright_text_popover'><i className="uil uil-arrow-circle-down"></i> Downloads</p>
                                     <p className='dull_text_popover'>⌘ L</p>
                                 </div>
                             </li>
@@ -104,52 +104,52 @@ const Go = () => {
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-home"></i> Home</p>
+                                    <p className='bright_text_popover'><i className="uil uil-home"></i> Home</p>
                                     <p className='dull_text_popover'>⇧ ⌘ H</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-laptop"></i> Computer</p>
+                                    <p className='bright_text_popover'><i className="uil uil-laptop"></i> Computer</p>
                                     <p className='dull_text_popover'>⇧ ⌘ C</p>
                                 </div>
                             </li>
 
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-bullseye"></i> AirDrop</p>
+                                    <p className='bright_text_popover'><i className="uil uil-bullseye"></i> AirDrop</p>
                                     <p className='dull_text_popover'>⇧ ⌘ R</p>
                                 </div>
                             </li>
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-globe"></i> Network</p>
+                                    <p className='bright_text_popover'><i className="uil uil-globe"></i> Network</p>
                                     <p className='dull_text_popover'>⇧ ⌘ K</p>
                                 </div>
                             </li>
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-cloud"></i> iCloud Drive</p>
+                                    <p className='bright_text_popover'><i className="uil uil-cloud"></i> iCloud Drive</p>
                                     <p className='dull_text_popover'>⇧ ⌘ I</p>
                                 </div>
                             </li>
                             <li className='Header_Left_popover_items  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-wallet"></i> Shared</p>
+                                    <p className='bright_text_popover'><i className="uil uil-wallet"></i> Shared</p>
                                     <p className='dull_text_popover'>⇧ ⌘ S</p>
                                 </div>
                             </li>
                             <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-letter-english-a"></i> Applications</p>
+                                    <p className='bright_text_popover'><i className="uil uil-letter-english-a"></i> Applications</p>
                                     <p className='dull_text_popover'>⇧ ⌘ A</p>
                                 </div>
                             </li>
                     
                             <li className='Header_Left_popover_items  bright_text_popover_Item '>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'><i class="uil uil-ruler"></i> Utilties</p>
+                                    <p className='bright_text_popover'><i className="uil uil-ruler"></i> Utilties</p>
                                     <p className='dull_text_popover'>⇧ ⌘ U</p>
                                 </div>
                             </li>

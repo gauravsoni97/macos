@@ -127,7 +127,7 @@ const AboutMac = ({setRestartModal}) => {
                             <li className='Header_Left_popover_items bright_text_popover_Item  bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
                                     <p className='bright_text_popover'>Lock Screen</p>
-                                    <p className='dull_text_popover'><i class="uil uil-angle-up"></i>⌘ Q</p>
+                                    <p className='dull_text_popover'><i className="uil uil-angle-up"></i>⌘ Q</p>
                                 </div>
                             </li>
                             <li className='Header_Left_popover_items bright_text_popover_Item  bright_text_popover_Item'>

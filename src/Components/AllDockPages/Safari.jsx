@@ -40,13 +40,13 @@ const Safari = () => {
                 <div className="minimizebtn top-left-btns top-left-btn3"></div>
               </div>
               <div className="safari_center_search d_flex">
-              <i class="uil uil-shield"></i>
+              <i className="uil uil-shield"></i>
                 <input className='safari_search' type="text" placeholder="Search or enter website name" />
               </div>
               <div className="safari_right d_flex">
-              <i class="uil uil-upload"></i>
-              <i class="uil uil-plus"></i>
-              <i class="uil uil-apps"></i>
+              <i className="uil uil-upload"></i>
+              <i className="uil uil-plus"></i>
+              <i className="uil uil-apps"></i>
 
               </div>
             </div>

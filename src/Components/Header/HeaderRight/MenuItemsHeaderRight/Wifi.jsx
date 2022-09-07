@@ -104,11 +104,11 @@ const Wifi = () => {
 
                   <div className="connected_network d_flex space_between ">
                     <div className="network_name d_flex">
-                      <div className="wifi_symbol pref-wifi"><i class="uil uil-wifi"></i></div>
+                      <div className="wifi_symbol pref-wifi"><i className="uil uil-wifi"></i></div>
                       <p className='wifi_name' >Ftth-23409</p>
                     </div>
                     <div className="network_lock">
-                      <i class="uil uil-lock"></i>
+                      <i className="uil uil-lock"></i>
                     </div>
 
                   </div>
@@ -129,7 +129,7 @@ const Wifi = () => {
 
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                   <AccordionSummary
-                    expandIcon={<i class="uil uil-angle-down"></i>}
+                    expandIcon={<i className="uil uil-angle-down"></i>}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                   >
@@ -151,11 +151,11 @@ const Wifi = () => {
                         <>
                           <div className="connected_network d_flex space_between " key={id}>
                             <div className="network_name d_flex">
-                              <div className="wifi_symbol"><i class="uil uil-wifi"></i></div>
+                              <div className="wifi_symbol"><i className="uil uil-wifi"></i></div>
                               <p className='wifi_name' >{wifi}</p>
                             </div>
                             <div className="network_lock">
-                              <i class="uil uil-lock"></i>
+                              <i className="uil uil-lock"></i>
                             </div>
                           </div>
                         </>
