@@ -4,10 +4,28 @@ import Popover from '@mui/material/Popover';
 
 import "../../HeaderRight/MenuItemsHeaderRight/PopoverStyle.css"
 
-
+import { useHistory, useLocation } from 'react-router-dom';
 
 
 const AboutFinder = () => {
+    const location = useLocation()
+    // const history = useHistory()
+    // history.location.pathname
+
+
+    const [activePathName, setactivePathName] = React.useState(location.pathname)
+
+
+    if (activePathName == "/finder") {
+        setactivePathName("Finder")
+
+    } else if(activePathName == "/home"){
+        setactivePathName("Finder")
+    }
+    else if(activePathName == "/safari"){
+        setactivePathName("Safari")
+    }
+    
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -28,7 +46,9 @@ const AboutFinder = () => {
         <>
 
             <li className='menuitem' aria-describedby={id} variant="contained" onClick={handleClick}>
-            <b>Finder</b>
+                <b>
+                    {activePathName}
+                </b>
             </li>
 
 
@@ -51,7 +71,7 @@ const AboutFinder = () => {
                         <ul className='popovermenu'>
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>About Finder</p>
+                                    <p className='bright_text_popover'>About {activePathName}</p>
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>
@@ -85,7 +105,7 @@ const AboutFinder = () => {
 
                             <li className='Header_Left_popover_items bright_text_popover_Item'>
                                 <div className='d_flex space_between'>
-                                    <p className='bright_text_popover'>Hide Finder</p>
+                                    <p className='bright_text_popover'>Hide {activePathName}</p>
                                     <p className='dull_text_popover'>⌘ H</p>
                                 </div>
                             </li>
@@ -103,13 +123,13 @@ const AboutFinder = () => {
                                     <p className='dull_text_popover'></p>
                                 </div>
                             </li>
-                         
 
-                           
 
-                            
 
-                        
+
+
+
+
                         </ul>
 
 
