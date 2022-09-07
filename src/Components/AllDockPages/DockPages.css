@@ -1,6 +1,6 @@
 /* FOR LAUNCHPAD  */
 
-.MainLaunchPad_UI{
+.MainLaunchPad_UI {
     background-color: rgba(0, 0, 0, 0.451);
     backdrop-filter: blur(50px);
     width: 100vw;
@@ -15,9 +15,10 @@
     margin: 2rem 0 1rem;
 }
 
-.searchbartop input::placeholder{
+.searchbartop input::placeholder {
     color: rgb(203, 203, 203);
 }
+
 .searchbartop input {
     background-color: rgba(233, 233, 233, 0.111);
     text-align: center;
@@ -33,17 +34,18 @@
 .AllApps {
     width: 80vw;
     margin: 0 auto;
-   display: flex;
-   align-items: flex-start;
-   justify-content: center;
-   flex-wrap: wrap;
-   
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
-.ImgSpan .imgStyle{
+.ImgSpan .imgStyle {
     width: 80px;
 }
-.ImgSpan{
+
+.ImgSpan {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,8 +54,75 @@
     width: 100px;
 }
 
-.appname{
+.appname {
     font-size: .7rem;
     color: white;
     margin-top: .3rem;
+}
+
+
+
+/* safari
+ */
+
+.safari_div {
+    width: 90vw;
+    height: 80vh;
+    background-color: black;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px groove gray;
+    border-radius: .7rem;
+}
+
+
+.safari_header {
+    background-color: rgba(73, 74, 79, 0.763);
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+    padding: .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.safari_main_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+
+}
+
+.safari_center {
+    width: 45%;
+
+
+}
+
+.safari_search {
+    background-color: rgb(31, 31, 31);
+    outline: none;
+    border: none;
+    width: 400px;
+    padding:  .5rem;
+    border-radius: .3rem;
+    margin-left: 1rem;
+}
+
+
+.safari_right , .uil-shield{
+    color: gray;
+    
+}
+
+.safari_right .uil{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+
 }
