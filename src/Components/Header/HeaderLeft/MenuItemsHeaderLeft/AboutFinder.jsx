@@ -23,6 +23,27 @@ const AboutFinder = () => {
     else if(activePathName == "/safari"){
         setactivePathName("Safari")
     }
+    else if(activePathName == "/maps"){
+        setactivePathName("Maps")
+    }
+    else if(activePathName == "/contacts"){
+        setactivePathName("Contacts")
+    }
+    else if(activePathName == "/music"){
+        setactivePathName("Music")
+    }
+    else if(activePathName == "/podcasts"){
+        setactivePathName("Podcasts")
+    }
+    else if(activePathName == "/appstore"){
+        setactivePathName("App Store")
+    }
+    else if(activePathName == "/messages"){
+        setactivePathName("Messages")
+    }
+    else if(activePathName == "/photos"){
+        setactivePathName("Photos")
+    }
     
 
     const [anchorEl, setAnchorEl] = React.useState(null);
