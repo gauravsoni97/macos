@@ -31,7 +31,7 @@
 
 /* --------  */
 .AllApps {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
    display: flex;
    align-items: flex-start;
@@ -48,11 +48,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1.7rem;
     width: 100px;
 }
 
 .appname{
     font-size: .7rem;
     color: white;
+    margin-top: .3rem;
 }
