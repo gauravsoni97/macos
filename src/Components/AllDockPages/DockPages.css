@@ -1,10 +1,9 @@
-
 /* Finder  */
 
-.active_itembox{
+.active_itembox {
     background-color: rgba(255, 255, 255, 0.181);
     border-radius: .3rem;
-    
+
 }
 
 
@@ -120,18 +119,19 @@
     outline: none;
     border: none;
     width: 400px;
-    padding:  .5rem;
+    padding: .5rem;
     border-radius: .3rem;
     margin-left: 1rem;
 }
 
 
-.safari_right , .uil-shield{
+.safari_right,
+.uil-shield {
     color: gray;
-    
+
 }
 
-.safari_right .uil{
+.safari_right .uil {
     margin-left: 1rem;
     font-size: 1.1rem;
 
@@ -143,7 +143,7 @@
 
 
 
-.maps-window{
+.maps-window {
     width: 70vw;
     height: 80vh;
     background-color: rgb(48, 48, 48);
@@ -155,19 +155,20 @@
     border-radius: .7rem;
 
     display: flex;
-    align-items: flex-start  ;
+    align-items: flex-start;
     justify-content: flex-start;
 
     overflow: hidden;
 }
 
-.maps_left{
+.maps_left {
     border-right: 1px solid black;
     width: 20%;
     height: inherit;
     padding: 1rem;
 }
-.maps_right{
+
+.maps_right {
     padding: 1rem;
     width: 80%;
     height: 80vh;
@@ -176,7 +177,7 @@
 
 
 
-.mapleft_icons{
+.mapleft_icons {
     background-color: rgba(220, 220, 220, 0.076);
     border-radius: 50%;
     padding: .4rem;
@@ -187,39 +188,43 @@
     justify-content: center;
 }
 
-.maps_search_tab{
+.maps_search_tab {
 
     background-color: rgba(96, 96, 96, 0.365);
     padding: .2rem;
     border-radius: .3rem;
 }
-.mapsSearchbar{
+
+.mapsSearchbar {
     outline: none;
     border: none;
     background: transparent;
     color: white;
 }
-.uil-search{
+
+.uil-search {
     color: gray;
 }
-.item_name_map::placeholder{
+
+.item_name_map::placeholder {
     color: gray;
 }
-.item_name_map{
+
+.item_name_map {
     color: rgb(186, 186, 186);
     font-weight: 500;
     margin-left: .5rem;
     font-size: .75rem;
 }
 
-.addit{
+.addit {
     font-size: .65rem;
     text-transform: capitalize;
 }
 
 
 
-.Actuall_map{
+.Actuall_map {
     width: 100%;
     height: 100%;
     display: flex;
@@ -227,14 +232,14 @@
     justify-content: center;
 }
 
-.Actuall_map .mapgraph{
+.Actuall_map .mapgraph {
     width: 56vw;
     height: 77vh;
     filter: invert(1);
 }
 
 
-.maps-header-right{
+.maps-header-right {
     color: gray;
     padding: .7rem;
 
@@ -242,13 +247,164 @@
     justify-content: space-between;
 }
 
-.location_text{
+.location_text {
     font-size: .9rem;
     color: white;
     font-weight: 600;
     margin-left: .4rem;
 }
 
-.right-sideof-mapsheader .uil{
+.right-sideof-mapsheader .uil {
     margin-left: 1rem;
+}
+
+
+
+
+/* Contact  */
+
+
+.contactWindow {
+    width: 70vw;
+    height: 50vh;
+    background-color: rgba(24, 24, 28, 0.64);
+
+    backdrop-filter: blur(50px);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px groove rgb(103, 103, 103);
+    border-radius: .7rem;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.contact-Left,
+.contact-Mid {
+    width: 28%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.contact-Mid {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.contact-Mid ,.contact-Right {
+    background-color: rgb(41, 39, 39);
+    
+
+}
+.contact-Right {
+    width: 44%;
+    height: 100%;
+    padding: 1rem;
+    border-top-right-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    position: relative;
+}
+
+
+.highlightText {
+    background-color: rgba(247, 229, 229, 0.3);
+    border-radius: .4rem;
+    color: white;
+    padding: .4rem;
+    font-size: .8rem;
+}
+
+
+.searchbar_Contact{
+    background-color: rgba(128, 128, 128, 0.658);
+    border-radius: .4rem;
+    padding: .2rem;
+    margin-top: 2rem;
+}
+
+.searchbar_Contact .uil-search{
+    padding-left: .3rem;
+}
+
+input{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    padding-left: .3rem;
+}
+
+
+
+.myname{
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+.lastbtns_contacts{
+    padding: .0rem .8rem;
+    background-color: rgba(145, 145, 145, 0.924);
+    border-radius: 4px;
+    margin: .4rem;
+    color: white;
+   
+}
+
+.contact_btns{
+    position: absolute;
+    bottom: 1rem;
+    left: 0rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.author_owner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+   
+}
+.img_my img{
+    border-radius: 50%;
+    width: 80px;
+    margin-right: 1rem;
+}
+
+.contact_links{
+    width: 100%;
+    margin: 2rem auto;
+    color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.338);
+}
+
+.action_link_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.action_link_contacts .uil{
+    background-color: rgba(220, 220, 220, 0.098);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+    margin-bottom: .4rem;
+}
+.action_link_contacts p{
+    font-size: .7rem;
 }
