@@ -146,17 +146,19 @@
 .maps-window{
     width: 70vw;
     height: 80vh;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(48, 48, 48);
     position: absolute;
     top: 3rem;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px groove gray;
+    border: 1px groove rgb(103, 103, 103);
     border-radius: .7rem;
 
     display: flex;
     align-items: flex-start  ;
     justify-content: flex-start;
+
+    overflow: hidden;
 }
 
 .maps_left{
@@ -168,6 +170,7 @@
 .maps_right{
     padding: 1rem;
     width: 80%;
+    height: 80vh;
 }
 
 
@@ -212,4 +215,40 @@
 .addit{
     font-size: .65rem;
     text-transform: capitalize;
+}
+
+
+
+.Actuall_map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Actuall_map .mapgraph{
+    width: 56vw;
+    height: 77vh;
+    filter: invert(1);
+}
+
+
+.maps-header-right{
+    color: gray;
+    padding: .7rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.location_text{
+    font-size: .9rem;
+    color: white;
+    font-weight: 600;
+    margin-left: .4rem;
+}
+
+.right-sideof-mapsheader .uil{
+    margin-left: 1rem;
 }
