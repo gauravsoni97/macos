@@ -19,7 +19,7 @@ const StartLoader = () => {
                 const diff = Math.random() * 10;
                 return Math.min(oldProgress + diff, 100);
             });
-        }, 500);
+        }, 1000);
 
 
         return () => {
